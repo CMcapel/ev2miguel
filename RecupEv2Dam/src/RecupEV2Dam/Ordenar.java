@@ -8,7 +8,7 @@ public class Ordenar {
 
 		int numero1, nume2;
 
-		String mensaje;
+		String Comprueba;
 
 		Scanner teclado = new Scanner(System.in);
 
@@ -22,19 +22,19 @@ public class Ordenar {
 
 		if (numero1 == nume2) {
 
-			mensaje = "Los dos números son iguales";
+			Comprueba = "Los dos números son iguales";
 
 		} else if (numero1 > nume2) {
 
-			mensaje = "El numero " + numero1 + " es mayor que " + nume2;
+			Comprueba = "El numero " + numero1 + " es mayor que " + nume2;
 
 		} else {
 
-			mensaje = "El numero " + nume2 + " es mayor que " + numero1;
+			Comprueba = "El numero " + nume2 + " es mayor que " + numero1;
 
 		}
 
-		System.out.print(mensaje);
+		System.out.print(Comprueba);
 
 		teclado.close();
 
