@@ -6,7 +6,7 @@ public class Ordenar {
 
 	public static void main(String[] args) {
 
-		int n1, n2;
+		int numero1, nume2;
 
 		String mensaje;
 
@@ -14,23 +14,23 @@ public class Ordenar {
 
 		System.out.print("Introduce el primer numero:   ");
 
-		n1 = teclado.nextInt();
+		numero1 = teclado.nextInt();
 
 		System.out.print("Introduce el segundo numero:   ");
 
-		n2 = teclado.nextInt();
+		nume2 = teclado.nextInt();
 
-		if (n1 == n2) {
+		if (numero1 == nume2) {
 
 			mensaje = "Los dos números son iguales";
 
-		} else if (n1 > n2) {
+		} else if (numero1 > nume2) {
 
-			mensaje = "El numero " + n1 + " es mayor que " + n2;
+			mensaje = "El numero " + numero1 + " es mayor que " + nume2;
 
 		} else {
 
-			mensaje = "El numero " + n2 + " es mayor que " + n1;
+			mensaje = "El numero " + nume2 + " es mayor que " + numero1;
 
 		}
 
